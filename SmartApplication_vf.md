@@ -297,7 +297,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
             "IdentityDocumentReference":[{  
                 "ID":"CURU000001",  
                 "DocumentDescription":"CURUContract",  
-                "ValiditiyPeriod":{"StartDate":"2022-08-25"},
+                "ValidityPeriod":{"StartDate":"2022-08-25"},
             }]
         }]
     }
