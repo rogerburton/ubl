@@ -136,7 +136,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
         "IdentityDocumentReference":[{  
             "ID":"AC000001",  
             "DocumentType":"AccessContract",  
-            "ValiditiyPeriod":{"StartDate":"2022-08-15"},
+            "ValidityPeriod":{"StartDate":"2022-08-15"},
             "XPath":"/accessContrat/identifiers",
             "Attachment":{
                 "EmbeddedDocument":"<accessContract><identifiers><login>loginxxx</login><password>passyyy</password></identifers></accesContract>"
@@ -171,7 +171,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
         "IdentityDocumentReference":[{  
             "ID":"AC000001",  
             "DocumentType":"AccessContract",  
-            "ValiditiyPeriod":{"StartDate":"2022-08-15"},
+            "ValidityPeriod":{"StartDate":"2022-08-15"},
             "XPath":"/accessContrat/identifiers",
             "Attachment":{
                 "EmbeddedDocument":"<accessContract><identifiers><login>loginxxx</login><password>passyyy</password></identifers></accesContract>"
@@ -208,7 +208,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
             "ID":"AC000002",  
             "DocumentType":"xml",  
             "DocumentDescription":"AccessContract",  
-            "ValiditiyPeriod":{"StartDate":"2022-08-10"},
+            "ValidityPeriod":{"StartDate":"2022-08-10"},
             "XPath":"/accessContrat/identifiers",
             "Attachment":{
                 "EmbeddedDocument":"<accessContract><identifiers><login>loginxxx2</login><password>passyyy2</password></identifers></accesContract>"
@@ -218,7 +218,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
             "UUID":"eid987654321",  
             "DocumentType":"Eid",  
             "DocumentDescription":"Carte d'identité",  
-            "ValiditiyPeriod":{"StartDate":"2020-01-1","EndDate":"2025-06-30"},
+            "ValidityPeriod":{"StartDate":"2020-01-1","EndDate":"2025-06-30"},
         }],
         "FinancialAccount":{
             "ID":"BE31 1234 4567 8900",
@@ -251,7 +251,7 @@ Sections[sous-sections] : mon profil, Smart Infos [news, base de connaissance], 
                 "ID":"AC000001",  
                 "DocumentType":"xml",  
                 "DocumentDescription":"AccessContract",  
-                "ValiditiyPeriod":{"StartDate":"2022-08-15"},
+                "ValidityPeriod":{"StartDate":"2022-08-15"},
                 "XPath":"/accessContrat/identifiers",
                 "Attachment":{
                     "EmbeddedDocument":"<accessContract><identifiers><login>loginxxx</login><password>passyyy</password></identifers></accesContract>"
