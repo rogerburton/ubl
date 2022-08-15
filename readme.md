@@ -52,6 +52,7 @@ Peu importe ici l'usage que l'on en fera, il s'agit avant tout de distinguer des
 * 3 pour une configuration dédiée à des Activité "++" (inscrite dans le long terme  : crédit, apport personnel, CDI, etc.)
 * 4 pour la gestion d'entités légales agissant comme des Activités dans notre éco-système (à créer)
 * 5 pour des Activités gérées par Smart (similaire à la déclinaison 3) en son nom et pour son compte ("Proxy", par exemple, ou "expérience activités", ou encore "DSI")
+* 6 pour des Tiers externes non gérés par Smart (clients, fournisseurs, etc.)
 * -1 pour un contexte où la notion de déclinaison de services n'est pas pertinente (sans usage actuel)
 
 #### <a name="lifecycle"></a>Le cycle de vie (LifeCycle)
