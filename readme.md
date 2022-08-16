@@ -130,21 +130,13 @@ La norme UBL sera utilisée **systématiquement** (documents ABIE, Common Aggreg
 
 En matière de personnalisation, on utilisera le composant UBLExtensions qui comprend le noeud <a href="http://www.datypic.com/sc/ubl23/e-ext_UBLExtension.html" target="_blank">UBLExtension</a> (tous les composants de type CAC ont en standard un noeud UBLExtensions à disposition) pour ajouter là où c'est nécessaire 
 * des paires clé/valeur dans un composant AdditionalProperty à créer :
-```json
-{
-    "AdditionalProperty":{  
-        "ID":"",
-        "ID@attributes":{
-            "@listID":"",
-            "@ListName":"",
-            "@ListAgencyID":"",
-            "@ListAgencyName":"",
-            "@ListVersionID":"",
-        },
-        "Name":"",
-        "Value":""
-    }
-}
+```xml
+<cac:AdditionalProperty>
+    <cbc:ID listID="" listName="" listAgencyID="" listAgencyName="" listVersionID=""></cbc:ID>
+    <cbc:Name></cbc:Name>
+    <cbc:Value></cbc:Value>
+    <cbc:ValueQualifier></cbc:ValueQualifier>
+</cac:AdditionalProperty>
 ```
 *  le composant <a href="http://www.datypic.com/sc/ubl23/t-cac_PeriodType.html" target="_blank">ValidityPeriod</a>
 * l'élément <a href="https://www.truugo.com/ubl/2.3/cbc_sequencenumberidtype/" target="_blank">SequenceNumberID</a>, pour les composants de cardinalité 0/1 ... n. Notamment quand de multiples items d'un même composant sont ordonnés dans le temps (historisation). Ce sera par exemple le cas pour un "Person" comportant plusieurs adresses enregistrant les changements d'adresse à partir d'une adresse initiale.
