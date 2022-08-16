@@ -85,6 +85,8 @@ En sortie:
     
 A noter : un événement généré à la sortie peut entraîner, dans le contexte modifié, l'activation d'une autre ligne de transition de la table.
 
+Toute modification apportée par un utilisateur à une instance d'objet qui "dégraderait" l'état actuel de ladite instance doit faire l'objet d'un message informant l'utilisateur de cette dégradation et lui demandant de confirmer les modifications ou de les abandonner.
+
 ##### <a name="rules"></a>Règles de gestion et validation
 Les règles sont essentiellement au service des changements d'état des objets.
 
